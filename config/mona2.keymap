@@ -148,7 +148,7 @@
 &kp LCTRL  &kp LALT  &kp LGUI  &none   &kp LANGUAGE_1  &kp LANGUAGE_2    &none  &none                           &none
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
     };
 };
