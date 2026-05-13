@@ -12,12 +12,16 @@
 
 &mt {
     flavor = "balanced";
-    quick-tap-ms = <450>;
+    quick-tap-ms = <0>;
+    hold-trigger-on-release;
+    require-prior-idle-ms = <150>;
+    tapping-term-ms = <170>;
 };
 
 &lt {
-    quick-tap-ms = <280>;
+    quick-tap-ms = <150>;
     flavor = "balanced";
+    require-prior-idle-ms = <120>;
 };
 
 / {
