@@ -22,7 +22,7 @@ layers:
   - K
   - L
   - {t: ENTER, h: '6'}
-  - Z
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -38,8 +38,8 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - DELETE
-  - LEFT SHIFT
-  - {t: ENTER, h: '2'}
+  - {t: SPACE, h: '2'}
+  - '&mkp MB1'
   - BACKSPACE
   - {t: SPACE, h: '1'}
   - '='
