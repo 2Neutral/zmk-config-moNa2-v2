@@ -22,12 +22,12 @@ layers:
   - K
   - L
   - {t: ENTER, h: '6'}
-  - {t: Z, h: LEFT SHIFT}
+  - Z
   - X
   - C
   - V
   - B
-  - ''''
+  - {t: '''', h: '4'}
   - ;
   - N
   - M
@@ -38,11 +38,11 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - DELETE
-  - {t: SPACE, h: '2'}
+  - LEFT SHIFT
   - '&mkp MB1'
   - BACKSPACE
   - {t: SPACE, h: '1'}
-  - '='
+  - {t: '=', h: '2'}
   '1':
   - '1'
   - '2'
@@ -173,8 +173,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
-  - {type: held}
-  - {type: held}
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -199,7 +199,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - '&bootloader'
   - ''
   - ''
@@ -298,7 +298,7 @@ layers:
   - ''
   - LANGUAGE 1
   - LANGUAGE 2
-  - ''
+  - DELETE
   - ''
   - ''
 combos:
