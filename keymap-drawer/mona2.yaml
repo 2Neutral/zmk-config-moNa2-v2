@@ -38,7 +38,7 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - DELETE
-  - LEFT SHIFT
+  - {t: SPACE, h: '2'}
   - '&mkp MB1'
   - BACKSPACE
   - {t: SPACE, h: '1'}
@@ -123,10 +123,10 @@ layers:
   - LCTRL
   - LALT
   - LGUI
-  - DELETE
+  - BACKSPACE
   - SPACE
   - '&mkp MB1'
-  - BACKSPACE
+  - DELETE
   - SPACE
   - '|'
   '3':
