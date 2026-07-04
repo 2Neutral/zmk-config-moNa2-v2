@@ -108,7 +108,7 @@ layers:
   - '#'
   - $
   - '%'
-  - {t: '0', h: LEFT SHIFT}
+  - '0'
   - '1'
   - '2'
   - '3'
@@ -123,10 +123,10 @@ layers:
   - LCTRL
   - LALT
   - LGUI
-  - BACKSPACE
+  - DELETE
   - SPACE
   - '&mkp MB1'
-  - DELETE
+  - BACKSPACE
   - SPACE
   - '|'
   '3':
