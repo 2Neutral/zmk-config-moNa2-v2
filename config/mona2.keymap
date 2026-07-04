@@ -98,10 +98,10 @@
 
         layer_2 {
             bindings = <
-&kp FSLH           &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp ASTERISK                           &kp LCTRL         &kp AMPERSAND      &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp MINUS          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp PLUS                   &trans      &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp EQUAL     &kp GRAVE    &kp DOT     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &mt RIGHT_SHIFT SLASH
-&kp LCTRL          &kp LALT      &kp LGUI      &kp BACKSPACE  &kp SPACE     &mkp MB1     &kp DELETE  &kp SPACE                                                                  &kp PIPE
+&kp FSLH   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK                              &kp LCTRL         &kp AMPERSAND      &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS                   &trans         &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
+&kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &kp GRAVE    &kp DOT        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &mt RIGHT_SHIFT SLASH
+&kp LCTRL  &kp LALT      &kp LGUI      &kp DELETE    &kp SPACE     &mkp MB1     &kp BACKSPACE  &kp SPACE                                                                  &kp PIPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
