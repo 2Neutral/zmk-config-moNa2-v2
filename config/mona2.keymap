@@ -12,7 +12,7 @@
 
 &mt {
     flavor = "tap-preferred";
-    tapping-term-ms = <285>;
+    tapping-term-ms = <250>;
     quick-tap-ms = <175>;
     require-prior-idle-ms = <80>;
     hold-trigger-on-release;
